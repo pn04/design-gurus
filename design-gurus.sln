@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 25.0.1706.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "design-gurus", "design-gurus\design-gurus.csproj", "{4F38F27B-11EE-4DE6-B646-4C8A73E8916C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "design-gurus", "src\design-gurus\design-gurus.csproj", "{CCDB7B2D-4B0D-4F02-8E03-03328049D400}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "design-gurus-tests", "tests\design-gurus-tests\design-gurus-tests.csproj", "{AC467FEA-5A8D-4F79-9189-21792382D061}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4F38F27B-11EE-4DE6-B646-4C8A73E8916C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4F38F27B-11EE-4DE6-B646-4C8A73E8916C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4F38F27B-11EE-4DE6-B646-4C8A73E8916C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4F38F27B-11EE-4DE6-B646-4C8A73E8916C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCDB7B2D-4B0D-4F02-8E03-03328049D400}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCDB7B2D-4B0D-4F02-8E03-03328049D400}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCDB7B2D-4B0D-4F02-8E03-03328049D400}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCDB7B2D-4B0D-4F02-8E03-03328049D400}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC467FEA-5A8D-4F79-9189-21792382D061}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC467FEA-5A8D-4F79-9189-21792382D061}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC467FEA-5A8D-4F79-9189-21792382D061}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC467FEA-5A8D-4F79-9189-21792382D061}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
